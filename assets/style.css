@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 .nav{
+    position: fixed;
+    right: 0;
     background-color: aqua;
     height: 70px;
     display: flex;
@@ -14,7 +16,7 @@
     padding: 15px;
     text-decoration: none;
     font-size: 20px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 .face{
     background-image: url(/assets/images/3678343.jpg);
@@ -27,9 +29,44 @@
 }
 .face h1{
     position: relative;
+    font-size: 200px;
+    color: white;
+    text-shadow: 4px 4px 20px #000000;
+}
 
-}
+
+/*End Img*/
+
+/*Start Cards*/
 .cards{
-    background-color: blue;
     height: 300px;
+    width: 60%;
+    float: left;
 }
+
+.card1{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    float: left;
+    background-image: url(/assets/images/Cliffs-from-land.jpg);
+}
+.card2{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    float: left;
+    background-image: url(/assets/images/2.jpg);
+}
+.card3{
+    height: 250px;
+    width: 300px;
+    background-size: cover;
+    float: left;
+    background-image: url(/assets/images/cliffs.jpg);
+}
+.cards-coment{
+    background-color: blueviolet;
+    height: 500px;
+}
+/*End Cards*/
