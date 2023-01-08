@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: aqua;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.nav a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+}
+.face{
+    background-image: url(/assets/images/3678343.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.face h1{
+    position: relative;
+
+}
+.cards{
+    background-color: blue;
+    height: 300px;
+}
