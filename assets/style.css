@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --cards-height: 350px;
+}
 .nav{
     position: fixed;
     right: 0;
@@ -45,21 +49,35 @@
 }
 
 .card1{
-    height: 250px;
+    height: var(--cards-height);
     width: 300px;
     background-size: cover;
     float: left;
     background-image: url(/assets/images/Cliffs-from-land.jpg);
+    transition: .5s;
 }
+.card1 h1 {
+    visibility: hidden;
+    transition-duration: 0.5s;
+}
+.card1:hover h1{
+    visibility: visible;
+}
+
+.card1:hover{
+    opacity: 0.5;
+    visibility: visible;
+}
+
 .card2{
-    height: 250px;
+    height: var(--cards-height);
     width: 300px;
     background-size: cover;
     float: left;
     background-image: url(/assets/images/2.jpg);
 }
 .card3{
-    height: 250px;
+    height: var(--cards-height);
     width: 300px;
     background-size: cover;
     float: left;
