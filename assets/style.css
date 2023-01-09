@@ -8,9 +8,7 @@
     --cards-height: 350px;
 }
 .nav{
-    position: fixed;
     right: 0;
-    background-color: aqua;
     height: 70px;
     display: flex;
     align-items: center;
@@ -37,54 +35,84 @@
     color: white;
     text-shadow: 4px 4px 20px #000000;
 }
-
-
 /*End Img*/
 
+/*photos*/
+.cards-row{
+    width: 100%;
+    display: flex;
+    height: 400px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+
+}
+
+.photo1{
+    width: 25%;
+    height: 350px;
+    background-image: url(/assets/images/1.jpg);
+    background-size: cover;
+    margin: 10px;
+    float: left;
+}
+.photo2{
+    width: 25%;
+    height: 350px;
+    background-image: url(/assets/images/1.jpg);
+    background-size: cover;
+    margin: 10px;
+    float: left;
+}
+.photo3{
+    width: 25%;
+    height: 350px;
+    background-image: url(/assets/images/1.jpg);
+    background-size: cover;
+    margin: 10px;
+    float: left;
+}
+/*photos*/
+
 /*Start Cards*/
-.cards{
-    height: 300px;
-    width: 60%;
-    float: left;
+.cards1{
+    width: 100%;
+    height: 400px;
 }
-
 .card1{
-    height: var(--cards-height);
-    width: 300px;
+    background-image: url(/assets/images/cliffscard.jpg);
     background-size: cover;
+    width: 50%;
     float: left;
-    background-image: url(/assets/images/Cliffs-from-land.jpg);
-    transition: .5s;
+    height: 400px;
+    transition: 0.5s;
 }
-.card1 h1 {
-    visibility: hidden;
-    transition-duration: 0.5s;
-}
-.card1:hover h1{
-    visibility: visible;
-}
-
 .card1:hover{
-    opacity: 0.5;
-    visibility: visible;
+    background-color: aliceblue;
+    opacity: 0.6;
 }
 
+.cards2{
+    width: 100%;
+    height: 400px;
+}
 .card2{
-    height: var(--cards-height);
-    width: 300px;
-    background-size: cover;
-    float: left;
-    background-image: url(/assets/images/2.jpg);
-}
-.card3{
-    height: var(--cards-height);
-    width: 300px;
-    background-size: cover;
-    float: left;
     background-image: url(/assets/images/cliffs.jpg);
+    background-size: cover;
+    float: right;
+    width: 50%;
+    height: 400px;
+    transition: 0.5s;
 }
-.cards-coment{
-    background-color: blueviolet;
-    height: 500px;
+
+.card2:hover{
+    opacity: 0.6;
 }
+
+
+
+
+
+
+
+
 /*End Cards*/
