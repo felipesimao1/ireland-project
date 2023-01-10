@@ -42,36 +42,226 @@
     width: 100%;
     display: flex;
     height: 400px;
-    margin-top: 50px;
-    justify-content: space-evenly;
-
+    margin: 10px ;
+    transition: 0.3s;
+    margin-top: 100px;
+    justify-content: center;
 }
 
 .photo1{
-    width: 25%;
+    width: 15%;
     height: 350px;
     background-image: url(/assets/images/1.jpg);
     background-size: cover;
-    margin: 10px;
     float: left;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: .3s;
+    margin: 10px;
 }
+.photo1 h1 {
+    margin-top: 300px;
+    color: #000000;
+    padding:  5px 0 0 15px;
+    background-color: aliceblue;
+    height: 300px;
+    transition: 0.5s;
+    overflow: hidden;
+    opacity: 0.8;
+}
+.photo1 a{
+    text-decoration: none;
+}
+.photo1 p{
+    position: relative;
+    transition: 0.5s;
+    color: #000000;
+    padding: 15px;
+}
+.photo1:hover p{
+    transform: translateY(-460px);
+}
+.photo1:hover{
+    color: #000000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.photo1:hover h1{
+    transform: translateY(-200px);
+}
+
+
 .photo2{
-    width: 25%;
+    width: 15%;
     height: 350px;
-    background-image: url(/assets/images/1.jpg);
+    background-image: url(/assets/images/2.jpg);
     background-size: cover;
-    margin: 10px;
     float: left;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: .3s;
+    margin: 10px;
 }
+.photo2 h1 {
+    margin-top: 300px;
+    color: #000000;
+    padding:  5px 0 0 15px;
+    background-color: aliceblue;
+    height: 300px;
+    transition: 0.5s;
+    overflow: hidden;
+    opacity: 0.8;
+}
+.photo2 a{
+    text-decoration: none;
+}
+.photo2 p{
+    position: relative;
+    transition: 0.5s;
+    color: #000000;
+    padding: 15px;
+}
+.photo2:hover p{
+    transform: translateY(-460px);
+}
+.photo2:hover{
+    color: #000000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.photo2:hover h1{
+    transform: translateY(-200px);
+}
+
 .photo3{
-    width: 25%;
+    width: 15%;
     height: 350px;
-    background-image: url(/assets/images/1.jpg);
+    background-image: url(/assets/images/3.jpg);
     background-size: cover;
-    margin: 10px;
     float: left;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: .3s;
+    margin: 10px;
 }
+.photo3 h1 {
+    margin-top: 300px;
+    color: #000000;
+    padding:  5px 0 0 15px;
+    background-color: aliceblue;
+    height: 300px;
+    transition: 0.5s;
+    overflow: hidden;
+    opacity: 0.8;
+}
+.photo3 a{
+    text-decoration: none;
+}
+.photo3 p{
+    position: relative;
+    transition: 0.5s;
+    color: #000000;
+    padding: 15px;
+}
+.photo3:hover p{
+    transform: translateY(-460px);
+}
+.photo3:hover{
+    color: #000000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.photo3:hover h1{
+    transform: translateY(-200px);
+}
+
+.photo4{
+    width: 15%;
+    height: 350px;
+    background-image: url(/assets/images/flags.jpg);
+    background-size: cover;
+    float: left;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: .3s;
+    margin: 10px;
+}
+.photo4 h1 {
+    margin-top: 300px;
+    color: #000000;
+    padding:  5px 0 0 15px;
+    background-color: aliceblue;
+    height: 300px;
+    transition: 0.5s;
+    overflow: hidden;
+    opacity: 0.8;
+}
+.photo4 a{
+    text-decoration: none;
+}
+.photo4 p{
+    position: relative;
+    transition: 0.5s;
+    color: #000000;
+    padding: 15px;
+}
+.photo4:hover p{
+    transform: translateY(-460px);
+}
+.photo4:hover{
+    color: #000000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.photo4:hover h1{
+    transform: translateY(-200px);
+}
+
+.photo5{
+    width: 15%;
+    height: 350px;
+    background-image: url(/assets/images/irishflag.jpg);
+    background-size: cover;
+    float: left;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: .3s;
+    margin: 10px;
+}
+.photo5 h1 {
+    margin-top: 300px;
+    color: #000000;
+    padding:  5px 0 0 15px;
+    background-color: aliceblue;
+    height: 300px;
+    transition: 0.5s;
+    overflow: hidden;
+    opacity: 0.8;
+}
+.photo5 a{
+    text-decoration: none;
+}
+.photo5 p{
+    position: relative;
+    transition: 0.5s;
+    color: #000000;
+    padding: 15px;
+}
+.photo5:hover p{
+    transform: translateY(-460px);
+}
+.photo5:hover{
+    color: #000000;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.photo5:hover h1{
+    transform: translateY(-200px);
+}
+
+
 /*photos*/
+
 
 /*Start Cards*/
 .cards1{
@@ -79,7 +269,7 @@
     height: 400px;
 }
 .card1{
-    background-image: url(/assets/images/cliffscard.jpg);
+    background-image: url(/assets/images/montains.jpg);
     background-size: cover;
     width: 50%;
     float: left;
