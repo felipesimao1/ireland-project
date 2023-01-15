@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /*Nav*/
@@ -10,7 +11,11 @@
     height: 70px;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.915);
+    position: fixed;
+    z-index: 1;
 }
 .nav a{
     padding: 15px;
@@ -21,18 +26,33 @@
 /*End Nav*/
 
 /*Castles*/
+
+
 .castles{
     background-image: url(/assets/images/5\ Dunguaire\ Castle.jpg);
     background-size: cover;
     height: 900px;
     box-shadow: 2px 2px 30px #000000;
+    align-items: center;
+    overflow: hidden;
+}
+.castle{
+    margin: 0 0 0 150px;
 }
 .castles-text{
     position: relative;
-    padding: 100px 0 0 100px;
     font-size: 70px;
     color: rgb(255, 255, 255);
     text-shadow: 4px 10px 20px black;
+    text-align: center;
+}
+.castles-text h1{
+    padding: 150px 0 0 40px ;
+    font-size: 150px;
+}
+.castles a{
+    color: white;
+    font-size: 30px;
 }
 .castles-text p{
     font-size: 50px;
@@ -47,9 +67,9 @@
     height: 200px;
     color: aliceblue;
     text-align: center;
-    background-image: url(/assets/images/8\ dublin\ castle.jfif);
+    background-image: url(/assets/images/dublincastle1.jpg);
     background-size: cover;
-    margin:  300px 0 0 50px;
+    margin:  300px 0 0 100px;
     border-radius: 10px;
     box-shadow: 4px 4px 30px #000000;
     float: left;
@@ -99,20 +119,18 @@
 /*short history*/
 .shorthistory{
     width: 80%;
-    height: 600px;
+    height: 1200px;
     margin: -50px 0 0 10% ;
     align-items: center;
     justify-content: center;
     background-color: rgba(168, 164, 164, 0.223);
     box-shadow: 2px 2px 10px #000000;
+    font-size: 20px;
     transition: 0.3s;
-}
-.shorthistory:hover{
-    transform: scale(1.1);
 }
 .short{
     margin: 150px 0 0 0 ;
-    height: 500px;
+    height: 400px;
     padding: 50px;
 }
 .shortcontent{
@@ -121,29 +139,26 @@
     float: left;
     background-color: rgba(27, 28, 28, 0.375);
     width: 600px;
-    height: 500px;
+    height: 900px;
 }
 .short img{
     width:  700px;
     height: 500px;
+    margin: 50px;
     float: left;
     border-radius: 10px;
     box-shadow: 2px 2px 10px #000000;
     transition: 0.3s;
 }
 img:hover{
-    transform: rotate(2deg);
-    opacity: 0.9;
+    opacity: 0.8;
 }
+
 /*end short history*/
 
 
 /*photos-content*/
 
-.photos-content{
-    background-color: aqua;
-    margin: 100px 0 0 0 ;
-}
 
 
 /*end photos-content*/
@@ -204,6 +219,7 @@ img:hover{
 .photo1:hover{
     color: #000000;
     transform: scale(1.1);
+    box-shadow: 2px 2px 10px #000000;
     cursor: pointer;
 }
 .photo1:hover h1{
@@ -245,6 +261,7 @@ img:hover{
 .photo2:hover{
     color: #000000;
     transform: scale(1.1);
+    box-shadow: 2px 2px 10px #000000;
     cursor: pointer;
 }
 .photo2:hover h1{
@@ -286,6 +303,7 @@ img:hover{
 .photo3:hover{
     color: #000000;
     transform: scale(1.1);
+    box-shadow: 2px 2px 10px #000000;
     cursor: pointer;
 }
 .photo3:hover h1{
@@ -327,6 +345,7 @@ img:hover{
 .photo4:hover{
     color: #000000;
     transform: scale(1.1);
+    box-shadow: 2px 2px 10px #000000;
     cursor: pointer;
 }
 .photo4:hover h1{
@@ -368,6 +387,7 @@ img:hover{
 .photo5:hover{
     color: #000000;
     transform: scale(1.1);
+    box-shadow: 2px 2px 10px #000000;
     cursor: pointer;
 }
 .photo5:hover h1{
